@@ -11,20 +11,12 @@ import java.util.Set;
  * to the database directly.
  */
 public class ScheduleDTO {
-    private long id;
+    private long scheduleId;
     private List<Long> employeeIds;
     private List<Long> petIds;
     private LocalDate date;
     private Set<EmployeeSkill> activities;
 
-    public long getId(){
-        return id;
-    }
-    
-    public void setId(long id){
-        this.id = id;
-    }
-    
     public List<Long> getEmployeeIds() {
         return employeeIds;
     }
@@ -55,5 +47,13 @@ public class ScheduleDTO {
 
     public void setActivities(Set<EmployeeSkill> activities) {
         this.activities = activities;
+    }
+
+    public long getScheduleId() {
+        return scheduleId;
+    }
+
+    public void setScheduleId(long scheduleId) {
+        this.scheduleId = scheduleId;
     }
 }
