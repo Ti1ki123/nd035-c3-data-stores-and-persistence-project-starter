@@ -1,6 +1,6 @@
 {
 	"info": {
-		"_postman_id": "ba5ffe2a-c5b4-47dd-b977-61ff0da4f645",
+		"_postman_id": "b3b8a173-7f83-4a82-8641-fd5bb0617a14",
 		"name": "Udacity",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
 		"_exporter_id": "20504541"
@@ -405,8 +405,7 @@
 					],
 					"port": "8082",
 					"path": [
-						"user",
-						"customer"
+						"pet"
 					]
 				}
 			},
